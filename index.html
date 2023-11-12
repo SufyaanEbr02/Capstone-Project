@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title of webpage-->
+    <title>FWS</title>
+    <!--Link to our css for styling to be applied-->
+    <link rel="stylesheet" href="./styles/task.css" type="text/css">
+</head>
+
+<body>
+    <!--Container for our first image-->
+        <div class="fitness-image">
+            <img src="https://rare-gallery.com/thumbs/510973-fitness.jpg" alt="image1" class="img">
+        </div>
+    <!--Container for the main content in first section-->
+    <div class="fitness-container" id="fitness-container">
+        <!--Navbar for navigation of pages-->
+        <div class="navbar-fitness">
+            <ul>
+                <li><a class="active" href="index.html">Page 1<br>Fitness With Sufyaan</a></li>
+                <li><a href="../html/page2.html">Page 2<br>Benefits Of Fitness</a></li>
+                <li><a href="../html/page3.html">Page 3<br>Helpful Products</a></li>
+                <li><a href="../html/save.html">Page 4<br>Saved Items</a></li>
+            </ul>
+        </div>
+        <!--Main heading of the webpage-->
+        <h1>FWS</h1>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropdown-btn">Select a section</button>
+            <ul class="dropdown-content" id="dropdown-content">
+                <li><a href="../index.html#fitness-container">FWS</a></li>
+                <li><a href="../index.html#fitness-description">What is fitness?</a></li>
+                <li><a href="../index.html#my-fitness">My exercise program</a></li>
+                <li><a href="html/page2.html#physical-health">Physical health benefits</a></li>
+                <li><a href="html/page2.html#mental-health">Mental health benefits</a></li>
+                <li><a href="html/page2.html#longevity-container">Benefits of longevity</a></li>
+            </ul>
+        </div>
+        <!--Subheading-->
+        <h2>Fitness With Sufyaan</h2>
+    </div>
+    <!--Container for our fitness description-->
+    <div class="fitness-description" id="fitness-description">
+        <!--Heading for fitness description-->
+        <h1>What is fitness?</h1>
+        <div class="description">
+            <!--Explanation of what fitness is using subheadings-->
+            <h2>Fitness is the state of being physically and mentally healthy.<br>
+                Being active and able to perform the daily tasks effectively.<br>
+                Physical activity can contribute not only to physical health<br>
+                but mental and emotional health too.</h2>
+            <!--Our image for the second section of webpage-->
+            <img src="https://img.freepik.com/premium-vector/fitness-people-gym_18591-40355.jpg?w=2000" alt="image2"
+                class="shake" id="my-image">
+        </div>
+    </div>
+    <!--Container for my exercise program-->
+    <div class="my-fitness" id="my-fitness">
+        <!--Heading for my exercise program table-->
+        <h1>Simple Exercise program</h1>
+        <!--Classifying our table and my exercise program info-->
+        <table>
+            <tr>
+                <th>Push-ups</th>
+                <th>Lunges</th>
+                <th>Sit-ups</th>
+                <th>Jogging</th>
+            </tr>
+            <tr>
+                <td>100 push-ups a day</td>
+                <td>Lunges with 5kg weights in each hand</td>
+                <td>50 sit-ups a day</td>
+                <td>Jogging for an hour each morning</td>
+            </tr>
+            <td>Helps strengthen upper body and core stability.<br>Works on arms, chest, shoulders, chest and back
+                muscles.</td>
+            <td>Contributes to improving balance.<br>Works the quads, hamstrings and calf muscles.</td>
+            <td>Strengthens, tightens and tones the abdominal muscles.<br>It is a good core exercise and good for
+                burning calories </td>
+            <td>Helps weight management. Improves cardio.<br>It is good for immune system and mental health</td>
+        </table>
+
+        <!--Adding external link for user to click on to build their ideal body-->
+        <p>Click <a href="https://madmuscles.com/step-goal">Here</a> to build your ideal body<br>and find out what
+            exercises are needed to get to your ideal body.</p>
+    </div>
+
+    <!--Link to our jquery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./js/fws.js"></script>
+</body>
+
+</html>

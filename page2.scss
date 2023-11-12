@@ -1,0 +1,220 @@
+$primary-color: aqua;
+$background-color: rgb(0, 0, 0);
+$text-color: white;
+$font-style: Arial, Helvetica, sans-serif;
+$font-size: 60px;
+
+/*Styling the color of the body for the page*/
+body {
+    background-color: black;
+}
+
+/*Styling for the ul of the navbar*/
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*Styling for the list items*/
+.navbar li {
+    float: left;
+    background-color: gray;
+}
+/*Styling for the anchor tag*/
+.navbar a {
+    display: block;
+    color: $primary-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Styling for the anchor upon hover*/
+.navbar a:hover {
+    background-color: $background-color;
+}
+/*Styling to show which page we currently on*/
+.active {
+    background-color: $text-color;
+}
+
+/*Styling for the benefits container*/
+.benefits-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    border-bottom: 8px solid $text-color;
+}
+
+/*Styling for the image container*/
+.benefits-image {
+    flex: 1;
+}
+
+/*Styling for the image inside the container*/
+.benefits-image img {
+    max-width: 100%;
+}
+
+/*Styling for the text container*/
+.benefits-text {
+    flex: 1;
+}
+
+/*Styling for the heading*/
+.benefits-text h1 {
+    background-color: $primary-color;
+    padding: 10px 20px;
+    font-size: $font-size;
+    color: $text-color;
+}
+
+/*Styling the physical health benefits container*/
+.physical-health {
+    text-align: center;
+    color: $text-color;
+    border-bottom: 8px solid $text-color;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Styling the physical health benefits heading*/
+.physical-health h1 {
+    font-size: $font-size;
+    font-family: $font-style;
+    background-color: $primary-color;
+}
+
+/*Styling for the physical container*/
+.physical-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+/*Styling for the physical text container*/
+.physical-text {
+    padding-right: 30px;
+}
+
+/*Styling for the unordered list of the physical health benefits*/
+.physical-text ul {
+    font-size: 30px;
+    text-align: left;
+    color: $text-color;
+    padding: 0;
+    margin: 0;
+}
+
+/*Styling for the physical image container*/
+.physical-image {
+    display: flex;
+}
+
+/*Styling for the image inside the physical image container*/
+.physical-image img {
+    width: 80%;
+    height: auto;
+    padding-left: 40px;
+}
+
+/*Styling the mental health benefits container*/
+.mental-health {
+    text-align: center;
+    color: $text-color;
+    border-bottom: 8px solid $text-color;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/*Styling the mental health benefits heading*/
+.mental-health h1 {
+    font-family: $font-style;
+    font-size: $font-size;
+    background-color: $primary-color;
+}
+
+/*Styling for the mental container*/
+.mental-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/*Styling for the mental text container*/
+.mental-text {
+    flex: 1;
+}
+
+/*Styling the unordered list with the mental health benefits information*/
+.mental-health ul {
+    font-size: 30px;
+    color: $text-color;
+    text-align: left;
+}
+
+/*Styling for the mental image container*/
+.mental-image {
+    padding-right: 20px;
+}
+
+/*Styling for the image inside the mental image container*/
+.mental-image img {
+    width: 80%;
+    height: auto;
+}
+/*Styling for the mental image to flip when hovered*/
+.mental-image img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*Styling for our longevity container*/
+.longevity-container {
+    text-align: center;
+    color: $text-color;
+    border-bottom: 8px solid $text-color;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+/*Styling for the heading of the longevity benefits section*/
+.longevity-container h1 {
+    color: $text-color;
+    font-family: $font-style;
+    font-size: $font-size;
+    background-color: $primary-color;
+}
+
+/*Styling for the div class longevity*/
+.longevity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+/*Styling for the unordered list with the longevity benefits information*/
+.longevity-container ul {
+    color: $text-color;
+    font-size: 30px;
+    text-align: left;
+}
+
+/*Styling for the image that is to be displayed after benefits*/
+.longevity-image img {
+    width: 80%;
+    height: auto;
+}
