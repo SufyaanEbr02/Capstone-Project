@@ -1,0 +1,290 @@
+/*Defining our custom variables*/
+/*Defining our background color for our webpage*/
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+/*Styling for the ul of the navbar*/
+.navbar-fitness ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Styling for the list items*/
+.navbar-fitness li {
+  float: left;
+  background-color: gray;
+}
+
+/*Styling for the anchor tag*/
+.navbar-fitness a {
+  display: block;
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Styling for the anchor upon hover*/
+.navbar-fitness a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/*Styling to show which page we currently on*/
+.active {
+  background-color: white;
+}
+
+/*Styling for the image container*/
+.fitness-image {
+  position: relative;
+  display: block;
+  border-bottom: 8px solid white;
+  padding-bottom: 80px;
+}
+
+/*Styling for the image*/
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*Styling for our fitness container*/
+.fitness-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Styling our main heading*/
+.fitness-container h1 {
+  font-size: 60px;
+  padding-left: 120px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: aqua;
+  margin: 20px 0;
+  text-align: left;
+}
+
+/*Styling the dropdown container*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/*Styling the dropdown button and content*/
+.dropdown-btn {
+  background-color: aqua;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1000px;
+  position: relative;
+  top: -80px;
+}
+
+/*Styling the dropdown button for when hovered on and focused on*/
+.dropdown-btn:hover,
+.dropdown-btn:focus {
+  background-color: yellow;
+}
+
+/*Styling for the dropdown content container*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px yellow;
+  z-index: 1;
+  margin-left: 1000px;
+  top: -40px;
+}
+
+/*Styling for the dropdown content list*/
+.dropdown-content li {
+  color: white;
+  font-size: 20px;
+}
+
+/*Styling for the anchor in the dropdown content container*/
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/*Styling the color for the button when hovered over*/
+.dropdown-content a:hover {
+  background-color: yellow;
+}
+
+/*Styling for the dropdown when shown*/
+.show {
+  display: block;
+}
+
+/*Styling for the subheading*/
+.fitness-container h2 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 40px;
+  padding-top: 200px;
+}
+
+/*Styling for our fitness description container*/
+.fitness-description {
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 8px solid white;
+}
+
+/*Styling for our heading of the fitness description section*/
+.fitness-description h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aqua;
+}
+
+/*Styling for the description container*/
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+/*Styling for the subheading*/
+.description h2 {
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+/*Styling for the image in the fitness description section*/
+.description img {
+  width: 40%;
+  height: auto;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/*Styling for the shake class*/
+.shake {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+/*Defining a shaking animation that transitions the element's position and rotation*/
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/*Styling for the my fitness container*/
+.my-fitness {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  border-bottom: 8px solid white;
+}
+
+/*Styling for the heading of my exercise program*/
+.my-fitness h1 {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aqua;
+}
+
+/*Styling for the table container*/
+.my-fitness table {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+}
+
+/*Styling for the table*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*Styling the table heading*/
+th {
+  border: 8px solid aqua;
+  padding: 50px;
+  font-size: 40px;
+}
+
+/*Styling for the table data*/
+td {
+  border: 8px solid aqua;
+  padding: 20px;
+  font-size: 30px;
+}
+
+/*Styling for the paragraph with the external link*/
+.my-fitness p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+/*Styling for the links*/
+.my-fitness a {
+  text-align: center;
+  color: aqua;
+  font-size: 25px;
+}/*# sourceMappingURL=task.css.map */

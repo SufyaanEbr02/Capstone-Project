@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../styles/save.css" type="text/css">
+    <title>FWS</title>
+</head>
+
+<body>
+    <!--Navbar for navigation of pages-->
+    <div class="navbar">
+        <ul>
+            <li><a href="../index.html">Page 1<br>Fitness With Sufyaan</a></li>
+            <li><a href="page2.html">Page 2<br>Benefits Of Fitness</a></li>
+            <li><a href="page3.html">Page 3<br>Helpful Products</a></li>
+            <li><a class="active" href="save.html">Page 3<br>Saved Items</a></li>
+        </ul>
+    </div>
+
+    <!--Button to toggle the display of the saved items-->
+    <div class="save-button">
+        <button class="show-saved" id="showSavedItems">Click Here For Saved Items</button>
+    </div>
+
+    <!--Section to display the saved items-->
+    <div id="saved-items" class="saved-items" style="display: none;">
+
+    </div>
+    <!--Comment form for clients to leave comments about webpage-->
+    <div class="comment">
+        <h1>Comment down below!</h1>
+        <form id="comment-form">
+            <input type="text" id="comment-name" placeholder="Your Name" required>
+            <textarea id="comment-message" placeholder="Your Comment" rows="4" required></textarea>
+            <button type="submit">Submit Comment</button>
+        </form>
+    </div>
+
+    <!--Contact form for clients to leave their details to be in contact with us-->
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <input type="text" id="contact-name" placeholder="Your Name" required>
+            <input type="email" id="contact-email" placeholder="Your Email" required>
+            <textarea id="contact-message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Submit Message</button>
+        </form>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/save.js"></script>
+</body>
+
+</html>

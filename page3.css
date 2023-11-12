@@ -1,0 +1,389 @@
+/*Styling the color of the body for the page*/
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+/*Styling for the ul of the navbar*/
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*Styling for the list items*/
+.navbar li {
+  float: left;
+  background-color: gray;
+}
+
+/*Styling for the anchor tag*/
+.navbar a {
+  display: block;
+  color: aqua;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Styling for the anchor upon hover*/
+.navbar a:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/*Styling to show which page we currently on*/
+.active {
+  background-color: white;
+}
+
+/*Styling for the h1 fitness equipment heading container*/
+.product-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+/*Styling for the h1 fitness equipment heading*/
+.product-heading h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: aqua;
+}
+
+/*Styling for the product details container*/
+.product-details {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  text-align: center;
+}
+
+/*Styling for the fitness dumbbell container*/
+.fitness-dumbbell {
+  border: 6px solid aqua;
+}
+
+/*Styling for the dumbbell text container*/
+.dumbbell-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the dumbbell text container*/
+.dumbbell-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the dumbbell text container*/
+.dumbbell-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the buttons container*/
+.buttons {
+  align-items: center;
+}
+
+/*Styling for the buttons*/
+.buttons button {
+  background-color: aqua;
+  font-size: 20px;
+  color: white;
+}
+
+/*Styling for the the dumbbell image*/
+.dumbbell-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the fitness resistance container*/
+.fitness-resistance {
+  border: 6px solid aqua;
+}
+
+/*Styling for the resistance text container*/
+.resistance-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the resistance text container*/
+.resistance-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the resistance text container*/
+.resistance-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the resistance image container*/
+.resistance-image {
+  margin-right: -20px;
+}
+
+/*Styling for the image in the resistance image container*/
+.resistance-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the fitness kettle container*/
+.fitness-kettle {
+  border: 6px solid aqua;
+}
+
+/*Styling for the image in the kettle image container*/
+.kettle-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the kettle text container*/
+.kettle-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the kettle text container*/
+.kettle-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the kettle text container*/
+.kettle-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the fitness ball container*/
+.fitness-ball {
+  border: 6px solid aqua;
+}
+
+/*Styling for the ball text container*/
+.ball-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the ball text container*/
+.ball-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the ball text container*/
+.ball-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the ball image container*/
+.ball-image {
+  margin-right: -20px;
+}
+
+/*Styling for the image in the ball image container*/
+.ball-image img {
+  width: 500px;
+  height: 400px;
+}
+
+/*Styling for the accessories heading container*/
+.accessories-heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Styling for the heading in the accessories heading container*/
+.accessories-heading h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: aqua;
+}
+
+/*Styling for the fitness accessories container*/
+.fitness-accessories {
+  border: 6px solid aqua;
+}
+
+/*Styling for the image in the roller image container*/
+.roller-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the roller text image container*/
+.roller-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the roller text subheading*/
+.roller-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the roller text h3 subheading*/
+.roller-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the fitness mat container*/
+.fitness-mat {
+  border: 6px solid aqua;
+}
+
+/*Styling for the mat text container*/
+.mat-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the mat text container*/
+.mat-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the mat text container*/
+.mat-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the mat image container*/
+.mat-image {
+  margin-right: -20px;
+}
+
+/*Styling for the mat image*/
+.mat-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the recovery heading container*/
+.recovery-heading {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Styling for the heading in the recovery heading container*/
+.recovery-heading h1 {
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: aqua;
+}
+
+/*Styling for thr fitness recovery container*/
+.fitness-recovery {
+  border: 6px solid aqua;
+}
+
+/*Styling for the recovery image*/
+.recovery-image img {
+  width: 600px;
+  height: 400px;
+}
+
+/*Styling for the recovery text container*/
+.recovery-text {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/*Styling for the subheading in the recovery text container*/
+.recovery-text h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/*Styling for the h3 subheading in the recovery text container*/
+.recovery-text h3 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+/*Styling for the last section container*/
+.last-section {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  border-bottom: 8px solid white;
+}
+
+/*Styling for the heading of last section*/
+.last-section h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aqua;
+}
+
+/*Styling for the subheading of last section*/
+.last-section h2 {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/*Styling for the text within the blockquote*/
+blockquote p {
+  font-size: 25px;
+  color: yellow;
+}
+
+/*Styling for the citation within the blockquote*/
+blockquote cite {
+  font-size: 20px;
+  color: yellow;
+}
+
+/*Styling for links within table of contents*/
+.fitness-journey a {
+  color: aqua;
+  font-size: 30px;
+}
+
+/*Styling for paragraph with external link*/
+.fitness-journey p {
+  color: white;
+  font-size: 25px;
+}/*# sourceMappingURL=page3.css.map */

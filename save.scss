@@ -1,0 +1,164 @@
+$primary-color: aqua;
+$background-color: rgb(0, 0, 0);
+$text-color: white;
+$font-style: Arial, Helvetica, sans-serif;
+$font-size: 60px;
+
+/*Styling the color of the body*/
+body{
+    background-color: $primary-color;
+}
+/*Styling for the comment h1 heading*/
+.comment h1{
+    text-align: center;
+    font-size: $font-size;
+    font-family: $font-style;
+    color: $text-color;
+    background-color: $background-color
+}
+/*Styling for the contact h1 heading*/
+.contact h1{
+    text-align: center;
+    font-size: $font-size;
+    font-family: $font-style;
+    color: $text-color;
+    background-color: $background-color
+}
+
+/*Styling for our entire submit button form*/
+form{
+    background-color: $text-color;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/*Styling for the labels*/
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/*Styling for the input fields and the textarea*/
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+}
+
+/*Styling for the textarea to allow vertical resizing*/
+textarea {
+    resize: vertical;
+}
+
+/*Styling for the submit button*/
+button[type="submit"]{
+    background-color: $primary-color;
+    color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Styling for the submit button on hover*/
+button[type="submit"]:hover{
+    background-color: yellow;
+}
+/*Styling for the save button container*/
+.save-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/*Styling for the button that shows saved items*/
+.show-saved{
+    background-color: $text-color;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: $background-color;
+    font-size: 15px;
+    font-weight: bolder;
+    box-shadow: 0 9px #999
+}
+/*More styling for the button*/
+.show-saved:active{
+    background-color: $text-color;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/*Styling for the saved items*/
+.saved-items{
+    display: none;
+    text-align: center;
+    align-items: center;
+}
+/*Styling for how the saved ul is displayed*/
+.saved-items ul{
+    list-style-type: none;
+}
+/*Styling for how the saved text is displayed*/
+.saved-items ul li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 5px;
+}
+/*Styling for how the saved images are displayed*/
+.saved-items ul li img{
+    max-width: 200px;
+    margin-right: 10px;
+}
+/*Styling for the subheading*/
+.saved-items ul li h2{
+    margin: 0;
+}
+/*Styling for the p element of saved items*/
+.saved-items ul li p{
+    margin-top: -10px;
+}
+
+/*Styling for the ul of the navbar*/
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*Styling for the list items*/
+.navbar li{
+    float: left;
+    background-color: gray;
+}
+
+/*Styling for the anchor tag*/
+.navbar a{
+    display: block;
+    color: $primary-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Styling for the anchor upon hover*/
+.navbar a:hover{
+    background-color: $background-color;
+}
+
+/*Styling to show which page we currently on*/
+.active{
+    background-color: $text-color;
+}
