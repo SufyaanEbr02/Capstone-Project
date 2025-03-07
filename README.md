@@ -2,7 +2,7 @@
 
 ## Description
 
-*FWS is your all-in-one destination for fitness enthusiasts. Whether you're a beginner looking for a simple fitness program, interested in understanding the benefits of fitness, or searching for quality fitness products, FWS has good you covered.*
+*FWS is your all-in-one destination for fitness enthusiasts. Whether you're a beginner looking for a simple fitness program, interested in understanding the benefits of fitness, or searching for quality fitness products, FWS has you covered.*
 
 ## Table of contents
 1. **Introduction**
